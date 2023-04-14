@@ -6,6 +6,7 @@ int main() {
     scanf("%d", &n);
     for (int i = 1; i <= n; i++) {
         num = (10 * num) + 9;
+        printf("%d + ",num);
         sum += num;
     }
     printf("%d", sum);
